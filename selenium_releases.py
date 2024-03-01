@@ -11,8 +11,7 @@ load_dotenv()
 url = "https://www.selenium.dev/"
 ## seleniumNewsbot
 # Access environment variables
-#BOT_TOKEN = os.getenv('BOT_TOKEN')
-Bot_token = "7141875368:AAF_ZOHTPnYlfYKLHgm5UDQNqbCTUNKIwZk"
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 bot = telebot.TeleBot(Bot_token)
 
 text_message = {
